@@ -64,11 +64,11 @@ The server will run on `http://localhost:5000` by default.
 
 - **Register**: Send a POST request to `/api/auth/register` with `username`, `email`, and `password`.
   
-  ![Register](path/to/register-image.png)
+  ![Register]([path/to/register-image.png](https://drive.google.com/file/d/19gWpc2nA2KFPwJBasjlfK9dFuMHDCH2n/view?usp=sharing))
 
 - **Login**: Send a POST request to `/api/auth/login` with `username` and `password` to receive a JWT.
   
-  ![Login](path/to/login-image.png)
+  ![Login]([path/to/login-image.png](https://drive.google.com/file/d/1B7phHssTFk8hB3RDOBYhAnth3YgS-236/view?usp=sharing))
 
 - **Protected Routes**: Include the JWT in the `Authorization` header as `Bearer <token>` to access protected routes.
 
