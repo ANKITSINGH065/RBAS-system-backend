@@ -63,7 +63,13 @@ The server will run on `http://localhost:5000` by default.
 ## Usage
 
 - **Register**: Send a POST request to `/api/auth/register` with `username`, `email`, and `password`.
+  
+  ![Register](path/to/register-image.png)
+
 - **Login**: Send a POST request to `/api/auth/login` with `username` and `password` to receive a JWT.
+  
+  ![Login](path/to/login-image.png)
+
 - **Protected Routes**: Include the JWT in the `Authorization` header as `Bearer <token>` to access protected routes.
 
 ## Contribution
